@@ -437,7 +437,7 @@ width: 400px;
 }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 414px) {
 h2::after {
 width: 380px;
 }
@@ -450,7 +450,7 @@ font-size: 1.8em;
 }
 }
 
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 414px) {
 h2::after {
 width: 300px;
 }
@@ -460,7 +460,7 @@ font-size: 2.5em;
 
 h3::after {
 width: 200px;
-
+}
 }
 
 @media screen and (max-width: 360px) {
