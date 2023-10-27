@@ -319,7 +319,7 @@ font-size: 1.9em;
 }
 
 p {
-font-size: 1.3em;
+font-size: 1.2em;
 }
 }
 
@@ -343,7 +343,7 @@ font-size: 1.2em;
 }
 
 p {
-font-size: 1.1em;
+font-size: 1em;
 }
 }
 
@@ -439,10 +439,10 @@ width: 400px;
 
 @media screen and (max-width: 414px) {
 h2::after {
-width: 380px;
+width: 390px;
 }
 h1 {
-font-size: 3em;
+font-size: 2.7em;
 }
 
 h2 {
@@ -452,7 +452,7 @@ font-size: 1.8em;
 
 @media screen and (max-width: 414px) {
 h2::after {
-width: 300px;
+width: 320px;
 }
 h3 {
 font-size: 2.5em;
@@ -469,7 +469,7 @@ width: 295px;
 }
 
 h1 {
-font-size: 3em;
+font-size: 2.5em;
 }
 
 h2 {
