@@ -1,0 +1,70 @@
+.habilidades {
+display: grid;
+grid-template-columns: repeat(2, 350px);
+gap: 30px;
+margin-bottom: 30px;
+}
+
+.img-habilidades {
+border: 3px solid rgb(255, 255, 255);
+width: 358px;
+background-color: transparent;
+position: relative;
+padding-bottom: 10px;
+border-radius: 15px;
+}
+
+.title-habilidades {
+font-size: 1.7em;
+color: rgb(0, 81, 255);
+}
+
+.text-habilidades {
+font-size: 1.3em;
+color: rgb(255, 255, 255);
+}
+
+.border-bottom {
+border-bottom: 3px solid rgb(255, 255, 255);
+border-top: 3px solid rgb(255, 255, 255);
+}
+
+.btn-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.buuton-habilidades {
+width: 250px;
+height: 50px;
+border-radius: 10px;
+background-color: transparent;
+color: rgb(255, 255, 255);
+margin-top: 10px;
+margin-bottom: 10px;
+font-weight: 900;
+font-size: 1.3em;
+border: 3px solid rgb(255, 255, 255);
+}
+
+.buuton-habilidades:hover {
+background-color: rgb(43, 109, 252);
+
+cursor: pointer;
+}
+
+@media (max-width: 1155px) {
+.habilidades {
+display: grid;
+grid-template-columns: repeat(2, 350px);
+}
+}
+
+@media (max-width: 760px) {
+.habilidades {
+display: grid;
+grid-template-columns: repeat(1, 350px);
+}
+}

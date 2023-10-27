@@ -1,0 +1,20 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+[scroll-anim] {
+opacity: 0;
+transition: all 0.7s ease;
+animation-delay: 10s;
+margin-top: 40px;
+}
+
+[scroll-anim].animation {
+transform: translate3d(0px, -50px, 0px);
+opacity: 1;
+}
+
+[scroll-anim="top"] {
+transform: translate3d(0px, -50px, 0px);
+}
