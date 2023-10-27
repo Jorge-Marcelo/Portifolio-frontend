@@ -325,11 +325,25 @@ font-size: 1.3em;
 
 @media screen and (max-width: 405px) {
 h1 {
-font-size: 2.4em;
+font-size: 2em;
 }
 
 h2 {
-font-size: 1.5em;
+font-size: 1.2em;
+}
+}
+
+@media screen and (max-width: 390px) {
+h1 {
+font-size: 1.9em;
+}
+
+h2 {
+font-size: 1.2em;
+}
+
+p {
+font-size: 1.1em;
 }
 }
 
@@ -428,7 +442,7 @@ h2::after {
 width: 380px;
 }
 h1 {
-font-size: 3.3em;
+font-size: 3em;
 }
 
 h2 {
@@ -438,13 +452,20 @@ font-size: 1.8em;
 
 @media screen and (max-width: 395px) {
 h2::after {
-width: 340px;
+width: 300px;
 }
+h3 {
+font-size: 2.5em;
+}
+
+h3::after {
+width: 200px;
+
 }
 
 @media screen and (max-width: 360px) {
 h2::after {
-width: 330px;
+width: 295px;
 }
 
 h1 {
