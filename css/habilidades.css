@@ -68,3 +68,11 @@ display: grid;
 grid-template-columns: repeat(1, 350px);
 }
 }
+
+@media (max-width: 395px) {
+.img-habilidades {
+width: 315px;
+margin-left: 17px;
+}
+}
+
