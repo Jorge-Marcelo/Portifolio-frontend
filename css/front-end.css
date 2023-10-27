@@ -1,25 +1,25 @@
-.habilidades {
+.front-end {
 display: grid;
-grid-template-columns: repeat(2, 350px);
+grid-template-columns: repeat(3, 350px);
 gap: 30px;
 margin-bottom: 30px;
 }
 
-.img-habilidades {
+.img-front {
 border: 3px solid rgb(255, 255, 255);
 width: 358px;
 background-color: transparent;
-position: relative;
+
+border-radius: 10px;
 padding-bottom: 10px;
-border-radius: 15px;
 }
 
-.title-habilidades {
-font-size: 1.7em;
+.title-front {
+font-size: 1.3em;
 color: rgb(0, 81, 255);
 }
 
-.text-habilidades {
+.text-front {
 font-size: 1.3em;
 color: rgb(255, 255, 255);
 }
@@ -36,42 +36,45 @@ align-items: center;
 justify-content: center;
 }
 
-.buuton-habilidades {
+.buuton-front {
 width: 250px;
 height: 50px;
 border-radius: 10px;
 background-color: transparent;
 color: rgb(255, 255, 255);
 margin-top: 10px;
-margin-bottom: 10px;
+margin-bottom: 5px;
 font-weight: 900;
 font-size: 1.3em;
 border: 3px solid rgb(255, 255, 255);
 }
 
-.buuton-habilidades:hover {
+.buuton-front:hover {
 background-color: rgb(43, 109, 252);
-
 cursor: pointer;
 }
 
 @media (max-width: 1155px) {
-.habilidades {
+.front-end {
 display: grid;
 grid-template-columns: repeat(2, 350px);
 }
 }
 
 @media (max-width: 760px) {
-.habilidades {
+.front-end {
 display: grid;
 grid-template-columns: repeat(1, 350px);
 }
 }
 
 @media (max-width: 395px) {
-.img-habilidades {
-width: 315px;
+.img-front {
+width: 320px;
 margin-left: 17px;
+}
+
+.border-bottom {
+width: 310px;
 }
 }
