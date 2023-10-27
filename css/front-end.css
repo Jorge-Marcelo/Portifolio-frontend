@@ -66,13 +66,7 @@ grid-template-columns: repeat(2, 350px);
 display: grid;
 grid-template-columns: repeat(1, 350px);
 }
-}
 
-<<<<<<< HEAD
-@media (max-width: 414px) {
-=======
-@media (max-width: 395px) {
->>>>>>> 89992a73c3d9c74d6f59214136d0ccacfd6ee7d3
 .img-front {
 width: 320px;
 margin-left: 17px;

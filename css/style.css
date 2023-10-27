@@ -187,19 +187,19 @@ width: 600px;
 opacity: 1;
 background: linear-gradient(90deg, #0077ff, #1100ff, rgb(0, 132, 255));
 
-background-size: 400%; /*Tamanho do background*/
-animation-name: gradient; /*Nome da animação*/
-animation-duration: 10s; /*Duração da animação*/
-animation-timing-function: ease-in; /*Tipo de progressão da animação*/
-animation-iteration-count: infinite; /*Quantas vezes a animação sera executada*/
+background-size: 400%;
+animation-name: gradient;
+animation-duration: 10s;
+animation-timing-function: ease-in;
+animation-iteration-count: infinite;
 }
 
 @keyframes gradient {
 0% {
-background-position: 0%; /*Posição inicial*/
+background-position: 0%;
 }
 100% {
-background-position: 400%; /*Posição final*/
+background-position: 400%;
 }
 }
 
@@ -216,7 +216,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-bottom: 50px;
+margin-bottom: 20px;
 }
 
 @keyframes gradient {
@@ -459,7 +459,7 @@ font-size: 2.5em;
 }
 
 h3::after {
-width: 200px;
+width: 230px;
 }
 }
 
