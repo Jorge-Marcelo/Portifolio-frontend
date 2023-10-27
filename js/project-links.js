@@ -144,3 +144,16 @@ newTableCalculadoraRepos.focus();
 buttonCalculadoraRepos.addEventListener("click", function () {
 calculadoraRepos(linkCalculadoraRepos);
 });
+
+const linkPortifolioRepos =
+"https://github.com/Jorge-Marcelo/Portifolio-frontend";
+
+const buttonPortifolioRepos = document.getElementById("portifolio-repos");
+function portifolioRepos(linkPortifolioRepos) {
+const newTablePortifolioRepos = window.open(linkPortifolioRepos, "_blank");
+newTablePortifolioRepos.focus();
+}
+
+buttonPortifolioRepos.addEventListener("click", function () {
+portifolioRepos(linkPortifolioRepos);
+});
