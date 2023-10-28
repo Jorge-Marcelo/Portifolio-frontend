@@ -2,7 +2,7 @@
 display: grid;
 grid-template-columns: repeat(2, 350px);
 gap: 30px;
-margin-bottom: 30px;
+margin-bottom: 10px;
 }
 
 .img-habilidades {
