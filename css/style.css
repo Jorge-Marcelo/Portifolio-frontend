@@ -236,6 +236,7 @@ margin: 10px 20px;
 
 .formação-text {
 text-align: center;
+font-size: 1.6em;
 }
 
 .home {
@@ -312,8 +313,7 @@ color: #008cff;
 
 h5 {
 font-family: "Play", sans-serif;
-font-size: 1.3em;
-margin: 10px;
+font-size: 2em;
 font-weight: 900;
 color: #2ab1ff;
 text-align: center;
@@ -365,6 +365,14 @@ max-width: 500px;
 
 .formação-container {
 max-width: 500px;
+}
+
+.formação-text {
+font-size: 1.3em;
+}
+
+h5 {
+font-size: 1.7em;
 }
 
 h3 {
@@ -425,6 +433,10 @@ max-width: 350px;
 
 .formação-container {
 max-width: 350px;
+}
+
+h5 {
+font-size: 1.5em;
 }
 
 h3 {
@@ -489,6 +501,14 @@ max-width: 315px;
 
 .formação-container {
 max-width: 315px;
+}
+
+.formação-text {
+font-size: 1.2em;
+}
+
+h5 {
+font-size: 1.3em;
 }
 
 h3 {
