@@ -67,6 +67,11 @@ href="css/animScroll.css"
 <a href="#sobre" class="navLink">Sobre</a>
 </li>
 
+
+<li class="navItem">
+<a href="#formacao" class="navLink">Formação</a>
+</li>
+
 <li class="navItem">
 <a href="#tecnologia" class="navLink">Tecnologias</a>
 </li>
@@ -84,7 +89,7 @@ href="css/animScroll.css"
 </header>
 
 <main>
-<section class="scroll-anim" scroll-anim="top">
+<section class="scroll-anim home" scroll-anim="top">
 <picture class="picture"><img src="assets/img/profile/Profile.png" /></picture>
 <div class="title-container">
 <h1 class="efect-blue">Jorge<span class="space">Marcelo</span></h1>
@@ -118,21 +123,29 @@ href="css/animScroll.css"
 <h3>Sobre Mim</h3>
 
 <article class="scroll-anim" scroll-anim="top">
-<p class="margin-p">
+<p class="margin-p sobre" >
 Tenho 26 anos, sou um estudante de Front-end, apaixonado por games, busco trazer
-o meu hobby para os meus projetos. Nos meus projetos, você vai ver muitas
+o meu hobby para os meus projetos.<br> Nos meus projetos, você vai ver muitas
 referências sutis em relação a games, claro, sem perder o foco do projeto, que é
 voltado para a lógica de programação.
 </p>
-</article>
 
-<article class="scroll-anim" scroll-anim="top">
-<p class="margin-p">
+<p class="margin-p sobre" >
 Meus conhecimentos não se restringem apenas à programação; tenho também
 habilidades com edição de imagens no Photoshop, um conhecimento que adquiri como
 autodidata.
 </p>
-<p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas.</p>
+</article>
+
+<section class="scroll-anim" scroll-anim="top">
+<h3 id="formacao">Formação</h3>
+<p class="margin-p" >
+Instituição: UNIASSELVI <br>
+Curso: Analise e Desenvolvimento de Sistemas
+</p>
+</section>
+
+
 </article>
 <span id="tecnologia"></span>
 </section>
@@ -140,62 +153,43 @@ autodidata.
 <section class="scroll-anim" scroll-anim="top">
 <h3>Tecnologias</h3>
 
+
 <article class="scroll-anim" scroll-anim="top">
 <div class="habilidades">
-<div class="img-habilidades">
+<div class="container-habilidades">
+
+<div class="img-tec">
+<img src="assets/img/Habilidades/HTML.png">
 <p class="title-habilidades">HTML5</p>
-<img src="assets/img/Habilidades/HTML.png" class="border-bottom" />
-<p class="text-habilidades">
-Linguagem de marcação de hipertexto responsável por todo o esqueleto do
-documento da página web.
-</p>
-<div class="btn-container">
-<button class="buuton-habilidades .button-position" id="html">
-Documentação
-</button>
 </div>
-</div>
+<p class="text-habilidades">Nivel: Avançado</p>
 
-<div class="img-habilidades">
+
+<div class="img-tec">
+
+<img src="assets/img/Habilidades/CSS.png">
 <p class="title-habilidades">CSS3</p>
-<img src="assets/img/Habilidades/CSS.png" class="border-bottom" />
-<p class="text-habilidades">
-Folha de estilo responsável por todo o conteúdo visual da página, como fonte,
-cores, background e outros elementos.
-</p>
-<div class="btn-container">
-<button class="buuton-habilidades" id="css">Documentação</button>
 </div>
-</div>
+<p class="text-habilidades">Nivel: Avançado</p>
 
-<div class="img-habilidades">
-<p class="title-habilidades">Javascript</p>
-<img src="assets/img/Habilidades/Javascript.png" class="border-bottom" />
-<p class="text-habilidades">
-Linguagem de programação que realiza a interação entre a página web e o usuário,
-possibilitando funcionalidades como menus de navegação, galerias de imagens e
-muitas outras interações.
-</p>
-<div class="btn-container">
-<button class="buuton-habilidades" id="js">Documentação</button>
-</div>
-</div>
 
-<div class="img-habilidades">
+<div class="img-tec">
+
+<img src="assets/img/Habilidades/Javascript.png">
+<p class="title-habilidades">JavaScript</p>
+</div>
+<p class="text-habilidades">Nivel: Intermediario</p>
+
+
+<div class="img-tec">
+<img src="assets/img/Habilidades/Photoshop.png">
 <p class="title-habilidades">Git</p>
-<img src="assets/img/Habilidades/Photoshop.png" class="border-bottom" />
-<p class="text-habilidades">
-Software de controle de versão responsável por corrigir, alterar e melhorar o
-projeto diretamente na máquina local de quem está desenvolvendo: Git (um exemplo
-de sistema de controle de versão).
-</p>
-<div class="btn-container">
-<button class="buuton-habilidades" id="git">Documentação</button>
+</div>
+<p class="text-habilidades">Nivel: Básico</p>
 </div>
 </div>
-</div>
-<span id="projetos"></span>
 </article>
+
 </section>
 
 <section class="scroll-anim" scroll-anim="top">
@@ -307,7 +301,6 @@ Repositorio do Portifolio
 </main>
 
 <script src="js/script.js"></script>
-<script src="js/carrossel.js"></script>
 <script src="js/social.js"></script>
 <script src="js/documentacao-links.js"></script>
 <script src="js/project-links.js"></script>

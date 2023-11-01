@@ -4,7 +4,6 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-transition: all 0.5s ease;
 }
 
 a {
@@ -216,8 +215,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin-bottom: -50px;
 }
 
+.home {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
 .title-container {
 display: flex;
 flex-direction: row;
@@ -297,14 +302,19 @@ p {
 font-size: 2em;
 text-align: center;
 margin: 5px;
-font-weight: 900;
+font-weight: 100;
 font-family: "Oswald", sans-serif;
 line-height: 1.3em;
 color: white;
 }
 
+.sobre {
+text-align: center;
+}
+
 .margin-p {
-margin: 0 20px;
+margin: 0 50px;
+margin-bottom: 20px;
 }
 
 .picture {
@@ -355,7 +365,7 @@ font-size: 2.3em;
 }
 
 p {
-font-size: 1.5em;
+font-size: 1.7em;
 }
 
 h2::after {
@@ -373,7 +383,7 @@ font-size: 2.5em;
 }
 
 p {
-font-size: 1.3em;
+font-size: 1.5em;
 }
 
 h2::after {
@@ -391,11 +401,15 @@ font-size: 2em;
 }
 
 p {
-font-size: 1.1em;
+font-size: 1.3em;
 }
 
 h2::after {
 width: 530px;
+}
+
+.sobre {
+text-align: left;
 }
 }
 

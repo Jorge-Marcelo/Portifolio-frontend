@@ -1,0 +1,164 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+transition: all 0.5s ease;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+}
+
+nav,
+.nav-links {
+display: flex;
+}
+
+nav {
+justify-content: space-around;
+align-items: center;
+height: 50px;
+border-bottom: 3px solid rgb(1, 1, 88);
+background-color: #4169e1;
+}
+
+.nav-links {
+gap: 2rem;
+list-style: none;
+font-size: 1.5rem;
+}
+
+a:hover::after {
+display: block;
+margin: auto;
+content: "";
+bottom: 5px;
+height: 3px;
+border-radius: 10px;
+width: 100%;
+opacity: 1;
+background: linear-gradient(90deg, #011864, #1100ff, rgb(3, 1, 95));
+transition: all 0.5s ease;
+}
+
+a:hover {
+color: #070158;
+transition: all 0.5s ease;
+}
+
+a {
+color: black;
+text-decoration: none;
+text-decoration-color: white;
+}
+
+.logo {
+font-size: 2rem;
+}
+
+.logo:hover {
+cursor: default;
+}
+
+/* HAMBURGER MENU */
+
+#hamburger-nav {
+display: none;
+}
+
+.hamburger-menu {
+position: relative;
+display: inline-block;
+}
+
+.hamburger-icon {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 24px;
+width: 30px;
+cursor: pointer;
+}
+
+.hamburger-icon span {
+width: 100%;
+height: 2px;
+background-color: rgb(4, 0, 255);
+transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+position: absolute;
+top: 100%;
+right: 0;
+background-color: transparent;
+width: fit-content;
+max-height: 0;
+overflow: hidden;
+transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+display: block;
+padding: 10px;
+text-align: center;
+font-size: 1.5rem;
+color: rgb(0, 26, 255);
+text-decoration: none;
+transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+list-style: none;
+}
+
+.menu-links.open {
+max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child {
+transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+transform: none;
+}
+
+.hamburger-icon span:first-child {
+opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+transform: none;
+}
+
+@media screen and (max-width: 1400px) {
+#profile {
+height: 83vh;
+margin-bottom: 6rem;
+}
+.about-containers {
+flex-wrap: wrap;
+}
+#contact,
+#projects {
+height: fit-content;
+}
+}
+
+@media screen and (max-width: 1200px) {
+#desktop-nav {
+display: none;
+}
+#hamburger-nav {
+display: flex;
+}
+}
