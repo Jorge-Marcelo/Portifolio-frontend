@@ -238,8 +238,9 @@ máquina local de quem está desenvolvendo
 <h3>Projetos</h3>
 
 <article class="scroll-anim" scroll-anim="top">
-<div class="front-end">
-<div class="img-front">
+
+<div class="container-carrossel">
+<div class="img-front active slider-img" id="img1">
 <h6>Taylor Swift Red Taylor's Version</h6>
 <img src="assets/img/FrontEndProjects/F1.png" class="border-bottom" />
 <p class="text-front">
@@ -252,7 +253,7 @@ Layout e Flexbox e lógica de programação em JavaScript.
 </div>
 </div>
 
-<div class="img-front">
+<div class="img-front slider-img" id="img2">
 <h6>Streets Of Rage 4 Project</h6>
 <img src="assets/img/FrontEndProjects/F2.png" class="border-bottom" />
 <p class="text-front">
@@ -265,7 +266,7 @@ usando sprites, scroll animation, sliders de imagens e Grid layout
 </div>
 </div>
 
-<div class="img-front">
+<div class="img-front slider-img" id="img3">
 <h6>Sonic Mania Project</h6>
 <img src="assets/img/FrontEndProjects/F3.png" class="border-bottom" />
 <p class="text-front">
@@ -279,7 +280,7 @@ CSS
 </div>
 </div>
 
-<div class="img-front">
+<div class="img-front slider-img" id="img4">
 <h6>Player de Musica</h6>
 <img src="assets/img/FrontEndProjects/F4.png" class="border-bottom" />
 <p class="text-front">
@@ -293,7 +294,7 @@ escutadores de eventos funções.
 </div>
 </div>
 
-<div class="img-front">
+<div class="img-front slider-img" id="img5">
 <h6>Carrossel Javascript</h6>
 <img src="assets/img/FrontEndProjects/F5.png" class="border-bottom" />
 <p class="text-front">
@@ -307,7 +308,7 @@ imagens e funções
 </div>
 </div>
 
-<div class="img-front">
+<div class="img-front slider-img" id="img6">
 <h5>Calculadora</h5>
 <img src="assets/img/FrontEndProjects/F6.png" class="border-bottom" />
 <p class="text-front">
@@ -322,6 +323,11 @@ Repositorio no Github
 </button>
 </div>
 </div>
+
+<button id="anterior" onclick="anterior()"> &lt; </button>
+<button id="proximo" onclick="proximo()"> &gt; </button>
+
+
 </div>
 </article>
 </section>
@@ -347,5 +353,6 @@ Repositorio do Portifolio
 <script src="js/documentacao-links.js"></script>
 <script src="js/project-links.js"></script>
 <script src="js/animScroll.js"></script>
+<script src="js/carrossel.js"></script>
 </body>
 </html>
