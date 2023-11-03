@@ -55,16 +55,17 @@ href="css/tecnologia.css"
 <body>
 <header>
 <!--Barra de Navegação-->
-<a class="logo" href="">Jorge Marcelo</a>
+<a class="logo" >Jorge Marcelo</a>
 <nav id="nav">
 <button   id="btn-mobile" onclick="openNav()"></button>
 </button>
 <ul id="menu" role="menu">
- <li class="itens-nav"><a>Home</a></li>  
- <li class="itens-nav"><a>Sobre</a></li>  
- <li class="itens-nav"><a>Formação</a></li>  
- <li class="itens-nav"><a>Tecnologias</a></li>  
- <li class="itens-nav"><a>Contato</a></li>  
+ <li class="itens-nav"><a href="#home">Home</a></li>  
+ <li class="itens-nav"><a href="#sobre">Sobre</a></li>  
+ <li class="itens-nav"><a href="#formacao">Formação</a></li>  
+ <li class="itens-nav"><a href="#tecnologia">Tecnologias</a></li>  
+ <li class="itens-nav"><a href="#projetos">Projetos</a></li>  
+ <li class="itens-nav"><a href="#contato">Contato</a></li>  
 </ul>
 </nav>
 </header>
@@ -74,6 +75,7 @@ href="css/tecnologia.css"
         
 
 <main>
+<span id="home"></span>
 <section class="scroll-anim home" scroll-anim="top">
 <picture class="picture"><img src="assets/img/profile/Profile.png" /></picture>
 <div class="title-container">
@@ -97,11 +99,13 @@ href="css/tecnologia.css"
 <button class="social" id="threads">
 <img src="assets/img/Footer/threads.png" />
 </button>
+<span id="sobre"></span>
+
 </div>
 <div class="button-container">
 <button class="button-visualizar" id="curriculo">Visualizar currículo</button>
+
 </div>
-<span id="sobre"></span>
 </section>
 
 <h3>Sobre Mim</h3>
@@ -120,6 +124,8 @@ habilidades com edição de imagens no Photoshop, um conhecimento que adquiri co
 autodidata.
 </p>
 </article>
+<span id="formacao"></span>
+
 </section>
 
 <h3 id="formacao">Formação</h3>
@@ -147,11 +153,10 @@ UNIASSELVI
 <h5>Estado:</h5>
 <p class="formação-text ">Cursando</p>
 </div>
+<pan id="tecnologia"></span>
+
 </section>
-
-
 </article>
-<span id="tecnologia"></span>
 
 <h3>Tecnologias</h3>
 <section class="formação-container scroll-anim" scroll-anim="top">
@@ -307,12 +312,14 @@ Repositorio no Github
 
 </div>
 </article>
+<span id="projetos"></span>
 </section>
 
 <div class="button-container-repositorio">
 <button class="button-visualizar" id="portifolio-repos">
 Repositorio do Portifolio
 </button>
+<span id="contato"></span>
 </div>
 
 <footer id="contato">
