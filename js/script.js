@@ -15,7 +15,6 @@ event.currentTarget.setAttribute("aria-label", "Abrir Menu");
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
-
 const menuItems = document.querySelectorAll(".menu-item");
 
 menuItems.forEach((item) => {
