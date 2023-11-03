@@ -53,48 +53,25 @@ href="css/tecnologia.css"
 />
 </head>
 <body>
-<span id="home"></span>
-<div class="navClose" id="nav-close">
-<i class="ri-close-line"></i>
-</div>
-
-<div class="navToggle" id="nav-toggle">
-<i class="ri-menu-fill"></i>
-</div>
-<header class="header" id="header">
-<a class="logo">Jorge Marcelo</a>
-
-<nav class="nav container">
-<div class="navMenu" id="navMenu">
-<ul class="navList">
-<li class="navItem">
-<a href="#home" class="navLink">Home</a>
-</li>
-
-<li class="navItem">
-<a href="#sobre" class="navLink">Sobre</a>
-</li>
-
-
-<li class="navItem">
-<a href="#formacao" class="navLink">Formação</a>
-</li>
-
-<li class="navItem">
-<a href="#tecnologia" class="navLink">Tecnologias</a>
-</li>
-
-<li class="navItem">
-<a href="#projetos" class="navLink">Projetos</a>
-</li>
-
-<li class="navItem">
-<a href="#contato" class="navLink">Contato</a>
-</li>
+<header>
+<!--Barra de Navegação-->
+<a class="logo" href="">Jorge Marcelo</a>
+<nav id="nav">
+<button   id="btn-mobile" onclick="openNav()"></button>
+</button>
+<ul id="menu" role="menu">
+ <li class="itens-nav"><a>Home</a></li>  
+ <li class="itens-nav"><a>Sobre</a></li>  
+ <li class="itens-nav"><a>Formação</a></li>  
+ <li class="itens-nav"><a>Tecnologias</a></li>  
+ <li class="itens-nav"><a>Contato</a></li>  
 </ul>
-</div>
 </nav>
 </header>
+
+        
+        
+        
 
 <main>
 <section class="scroll-anim home" scroll-anim="top">

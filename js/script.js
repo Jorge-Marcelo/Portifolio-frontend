@@ -1,27 +1,17 @@
-const navMenu = document.getElementById("navMenu");
-const navToggle = document.getElementById("nav-toggle");
-const navClose = document.getElementById("nav-close");
+const btnMobile = document.getElementById("btn-mobile");
 
-if (navToggle) {
-navToggle.addEventListener("click", function () {
-navMenu.classList.add("show-menu");
-navClose.classList.add("navClose");
-navToggle.classList.remove("navToggle");
-});
+function toggleMenu(event) {
+if (event.type === "touchstart") event.preventDefault();
+const nav = document.getElementById("nav");
+nav.classList.toggle("active");
+const active = nav.classList.contains("active");
+event.currentTarget.setAttribute("aria-expanded", active);
+if (active) {
+event.currentTarget.setAttribute("aria-label", "Fechar Menu");
+} else {
+event.currentTarget.setAttribute("aria-label", "Abrir Menu");
+}
 }
 
-if (navClose) {
-navClose.addEventListener("click", function () {
-navMenu.classList.remove("show-menu");
-navClose.classList.remove("navClose");
-navToggle.classList.add("navToggle");
-});
-}
-
-const navLink = document.querySelectorAll(".navLink");
-
-const linkAction = function () {
-navMenu.classList.remove("show-menu");
-};
-
-navLink.forEach((n) => n.addEventListener("click", linkAction));
+btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("touchstart", toggleMenu);
