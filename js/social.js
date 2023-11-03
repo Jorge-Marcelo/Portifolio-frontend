@@ -47,7 +47,7 @@ github(githubLink);
 });
 
 const curriculoLink =
-"https://drive.google.com/file/d/1EKFWCkDchBwsFJUCxt9ScxAmAkHrN52F/view?usp=sharing";
+"https://drive.google.com/file/d/1BWnxT8CJ7rkMcIGrllk6VZ0FbuVSTyli/view?usp=sharing";
 
 const CVButton = document.getElementById("curriculo");
 function curriculo(curriculoLink) {
