@@ -28,6 +28,10 @@ top: 8px;
 right: 80px;
 }
 
+.sonic {
+display: none;
+}
+
 /*Barra de Navegação*/
 header {
 height: 60px;
@@ -37,7 +41,7 @@ justify-content: space-between;
 font-family: "Play", sans-serif;
 font-size: 1.2em;
 width: 100%;
-border-bottom: 3px solid white;
+border-bottom: 3px solid rgb(4, 0, 255);
 position: fixed;
 z-index: 1000000000;
 background: #00071f;
@@ -131,7 +135,7 @@ right: 0px;
 }
 /*-----------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 #menu {
 display: block;
 position: fixed;
@@ -164,6 +168,7 @@ margin-top: 30px;
 
 nav ul li a:hover {
 color: rgb(4, 0, 255);
+cursor: pointer;
 
 transition: 0.6s ease-in;
 border-radius: 10px;
@@ -173,6 +178,7 @@ border-radius: 10px;
 display: flex;
 padding: 20px;
 margin-left: 20px;
+margin-top: 20px;
 background: transparent;
 border: none;
 cursor: pointer;
@@ -188,6 +194,12 @@ border: none;
 cursor: pointer;
 background-image: url("../assets/img/nav/close.png");
 background-repeat: no-repeat;
+}
+
+.sonic {
+display: flex;
+position: fixed;
+left: 45%;
 }
 }
 
