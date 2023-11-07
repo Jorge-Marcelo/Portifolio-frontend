@@ -40,10 +40,10 @@ right: 120px;
 }
 
 .ring-anim {
-width: calc(781px / 16);
-height: 60px;
+width: calc(374px / 10);
+height: 37px;
 background: url("../assets/img/anim/Ring.png");
-animation: animation 1s steps(16) infinite;
+animation: animation 1s steps(10) infinite;
 position: absolute;
 right: 20px;
 }
@@ -53,7 +53,7 @@ from {
 background-position: 0;
 }
 to {
-background-position: 781px;
+background-position: 374px;
 }
 }
 
